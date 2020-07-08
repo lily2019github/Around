@@ -1,0 +1,7 @@
+./kludge.go
+./load.go
+./main.go
+./match.go
+./parse.go
+./subst.go
+./write.go

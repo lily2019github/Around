@@ -1,0 +1,7 @@
+./block.go
+./doc.go
+./html.go
+./inline.go
+./latex.go
+./markdown.go
+./smartypants.go

@@ -1,0 +1,3 @@
+./checkers_db.go
+./context.go
+./lintpack.go

@@ -1,0 +1,8 @@
+./bool3.go
+./dsl_importer.go
+./gorule.go
+./node_category.go
+./parser.go
+./ruleguard.go
+./runner.go
+./utils.go

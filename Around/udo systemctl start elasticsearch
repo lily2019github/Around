@@ -1,0 +1,17 @@
+[0;1;31m●[0m elasticsearch.service - Elasticsearch
+   Loaded: loaded (/usr/lib/systemd/system/elasticsearch.service; enabled; vendor preset: enabled)
+   Active: [0;1;31mfailed[0m (Result: exit-code) since Wed 2020-07-08 05:40:46 UTC; 1min 40s ago
+     Docs: https://www.elastic.co
+  Process: 20465 ExecStart=/usr/share/elasticsearch/bin/systemd-entrypoint -p ${PID_DIR}/elasticsearch.pid --quiet [0;1;31m(code=exited, status=1/FAILURE)[0m
+ Main PID: 20465 (code=exited, status=1/FAILURE)
+
+Jul 08 05:40:45 around systemd-entrypoint[20465]:         at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+Jul 08 05:40:45 around systemd-entrypoint[20465]:         at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+Jul 08 05:40:45 around systemd-entrypoint[20465]:         at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+Jul 08 05:40:45 around systemd-entrypoint[20465]:         at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+Jul 08 05:40:45 around systemd-entrypoint[20465]:         at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+Jul 08 05:40:45 around systemd-entrypoint[20465]:         at java.base/java.lang.Thread.run(Thread.java:832)
+Jul 08 05:40:45 around systemd-entrypoint[20465]: For complete error details, refer to the log at /var/log/elasticsearch/elasticsearch.log
+Jul 08 05:40:46 around systemd[1]: [0;1;39m[0;1;31m[0;1;39melasticsearch.service: Main process exited, code=exited, status=1/FAILURE[0m
+Jul 08 05:40:46 around systemd[1]: [0;1;39m[0;1;31m[0;1;39melasticsearch.service: Failed with result 'exit-code'.[0m
+Jul 08 05:40:46 around systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Elasticsearch.[0m

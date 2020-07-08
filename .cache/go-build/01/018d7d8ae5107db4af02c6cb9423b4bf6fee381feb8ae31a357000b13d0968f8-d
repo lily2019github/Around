@@ -1,0 +1,9 @@
+./cache.go
+./completion.go
+./config.go
+./executor.go
+./help.go
+./linters.go
+./root.go
+./run.go
+./version.go

@@ -1,0 +1,8 @@
+./command.go
+./config.go
+./disasmprint.go
+./docgen.go
+./groups.go
+./starlark.go
+./terminal.go
+./terminal_other.go

@@ -1,0 +1,3 @@
+./autostart_default.go
+./autostart_posix.go
+./lsprpc.go

@@ -1,0 +1,5 @@
+./adapters.go
+./issue.go
+./linter.go
+./metalinter.go
+./runner.go

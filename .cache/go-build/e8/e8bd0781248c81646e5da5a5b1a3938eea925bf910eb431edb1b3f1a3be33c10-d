@@ -1,0 +1,3 @@
+./examples_test.go
+./image_annotator_client_example_test.go
+./product_search_client_example_test.go
